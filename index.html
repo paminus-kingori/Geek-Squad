@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Geek squad">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animate.css">
+    <link rel="stylesheet" href="styles/site.css">
+    <title>Geek Squad</title>
+</head>
+<body>
+    <div class="title wow fadeInDown" data-wow-duration="2.5s">
+        <span >
+    Meet the Geek Squad
+    </span>
+    </div>
+
+    <!-- mkubwa -->
+<div class="box wow bounceInLeft" data-wow-delay=".4s" data-wow-duration=".8s">
+    <div class="imgBox">
+        <img src="images/elias.jpg" alt="Elijah">
+    </div>
+    <div class="content">
+        <h2>
+            Elias Otieno<br>
+            <span>
+                Data Scientist
+            </span>
+        </h2>
+    </div>
+</div>
+  
+ <!-- Njoks -->
+ <div class="box wow fadeInDown" data-wow-delay=".4s" data-wow-duration=".7s">
+    <div class="imgBox">
+        <img src="images/Njoks.jpg" alt="Njoki">
+    </div>
+    <div class="content">
+        <h2>
+            Njoki Curie<br>
+            <span>
+                Creative Designer
+            </span>
+        </h2>
+    </div>
+</div>
+
+ <!-- Ericko -->
+ <div class="box wow bounceInRight" data-wow-delay=".4s" data-wow-duration=".6s">
+    <div class="imgBox">
+        <img src="images/erick.jpg" alt="Erick">
+    </div>
+    <div class="content">
+        <h2>
+            Eric Njoroge<br>
+            <span>
+                Android developer
+            </span>
+        </h2>
+    </div>
+</div>
+
+ <!-- bigman -->
+ <div class="box wow slideInLeft" data-wow-delay=".4s" data-wow-duration=".5s">
+    <div class="imgBox">
+        <img src="images/Abwao.jpg" alt="Collins">
+    </div>
+    <div class="content">
+        <h2>
+            Collins Omondi<br>
+            <span>
+                 Web Developer
+            </span>
+        </h2>
+    </div>
+</div>
+
+ <!--yours truly -->
+ <div class="box wow slideInRight" data-wow-delay=".4s" data-wow-duration=".4s">
+    <div class="imgBox">
+        <img src="images/pami2.jpg" alt="Paminus">
+    </div>
+    <div class="content">
+        <h2>
+            Paminus King'ori<br>
+            <span>
+                Web Designer
+            </span>
+        </h2>
+    </div>
+</div>
+<script src="js/wow.min.js"></script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    
+  </script>
+</body>
+</html>
